@@ -1,0 +1,21 @@
+﻿@using C2CPortal.Models; 
+@model StudentDetails;
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    <div>
+        <div>
+            StudentName
+            <input type="text"/>
+        </div>
+        <div>
+            StudentID
+            <input type="text"/>
+        </div>
+        <div>
+            @Html.ActionLink("Submit","PostStudentData","College");
+        </div>
+    </div>
+    
+}
